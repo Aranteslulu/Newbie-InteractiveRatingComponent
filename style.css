@@ -179,6 +179,29 @@ h2 {
 }
 
 
+
+input {
+    margin-top: 2em;
+    border: none;
+    background-color: var(--clr-orange);
+    color: var(--clr-white);
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    border-radius: 30px;
+    height: 3em;
+    width: 10em;
+}
+
+input:hover {
+    background-color: var(--clr-white);
+    color: var(--clr-orange);
+    cursor: pointer;
+
+}
+
+
+
 @media (max-width: 425px) {
    main {
     margin: 0 2em

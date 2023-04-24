@@ -27,3 +27,11 @@ submit.addEventListener("click", () => {
         rating_area.classList.add("hidden")
     }
 })
+
+
+
+function reset() {
+    addEventListener('click', () => {
+        location.reload()
+    })
+}
